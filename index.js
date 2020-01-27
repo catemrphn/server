@@ -138,4 +138,6 @@ function checkCol() {
     return false;
 }
 
-app.listen(4000);
+app.listen(4000, () => {
+    console.log('Started on 4000')
+});
